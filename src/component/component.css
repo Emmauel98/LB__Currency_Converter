@@ -1,0 +1,15 @@
+input_style{
+    display: none;
+}
+
+input_style::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: tomato;
+    border-radius: 20px;
+    z-index: -1;
+    transition: 0.3s;
+    animation: animate 2s linear infinite;
+}
